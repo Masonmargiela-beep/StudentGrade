@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="Student Marks Grade App"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/txtStudentNo"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Student No."
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="321dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Age"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="318dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Subject"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/txtMark"
+        android:layout_width="308dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Mark obtained (0-100)"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <Button
+        android:id="@+id/btnEvaluate"
+        android:layout_width="145dp"
+        android:layout_height="53dp"
+        android:text="Compute Grade"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/txtResults"
+        android:layout_width="320dp"
+        android:layout_height="203dp"
+        android:text="Results will appear here"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="126dp"
+        android:layout_height="53dp"
+        android:text="Clear"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
