@@ -49,7 +49,8 @@ class MainActivity : AppCompatActivity() {
 
             }else{
             //Validate age
-            val age = ageText.toIntOrNull()
+
+                val age = ageText.toIntOrNull()
                 if (age==null||age<=0) {
                     txtResults.text = "Enter a valid age"
 
